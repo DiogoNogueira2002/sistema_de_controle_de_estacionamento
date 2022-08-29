@@ -96,7 +96,7 @@ printf("========= entes, facilitando assim o intermedio dos admi-  ============\
 printf("========= nistradores que usarao o sistema.                ============\n");
 printf("=========                                                  ============\n");
 printf("=========  PROJETO DESENVOLVIDO POR:                       ============\n");
-printf("=========  DIOGO VICTOR                                    ============\n");
+printf("=========  DIOGO VICTOR DE SOUZA NOGUEIRA                  ============\n");
 printf("=========  E-MAIL: estudantediogo2203@gmail.com            ============\n");
 printf("=========  GITHUB: https://github.com/DiogoNogueira2002    ============\n");
 printf("=======================================================================\n");

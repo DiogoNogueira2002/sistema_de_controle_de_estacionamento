@@ -20,6 +20,7 @@ int main(){
 }
 
 void tela_principal(void){
+system("clear||cls");
 printf("=======================================================================\n");
 printf("=========                        SCE                          =========\n");
 printf("=========        Sistema de Controle de Estacionamentos       =========\n");
@@ -30,20 +31,26 @@ printf("========= 3 - Menu de Pagamento\n");
 printf("========= 4 - Tabela de Precos\n");
 printf("========= 5 - Sobre\n");
 printf("========= 0 - Sair\n");
+printf("\nAperte ENTER para continuar...");
+getchar();
 }
 
 void tela_clientes(void){
+system("clear||cls");
 printf("=======================================================================\n");
 printf("=========                    Menu de Clientes                 =========\n");
 printf("=======================================================================\n");
-printf("========= 1 - Cadastrar Clientes\n");
+printf("========= 1 - Cadastrar Cliente\n");
 printf("========= 2 - Mostrar Todos os Clientes\n");
-printf("========= 3 - Editar Clientes\n");
-printf("========= 4 - Remover Clientes\n");
+printf("========= 3 - Editar Cliente\n");
+printf("========= 4 - Remover Cliente\n");
 printf("========= 0 - Voltar\n");
+printf("\nAperte ENTER para continuar...");
+getchar();
 }
 
 void tela_estac(void){
+system("clear||cls");
 printf("=======================================================================\n");
 printf("=========                 Menu de Estacionamento              =========\n");
 printf("=======================================================================\n");
@@ -52,18 +59,24 @@ printf("========= 2 - Mostrar Todas as Vagas\n");
 printf("========= 3 - Editar Vagas\n");
 printf("========= 4 - Remover Vagas\n");
 printf("========= 0 - Voltar\n");
+printf("\nAperte ENTER para continuar...");
+getchar();
 }
 
 void tela_pag(void){
+system("clear||cls");
 printf("=======================================================================\n");
 printf("=========                   Menu de Pagamento                 =========\n");
 printf("=======================================================================\n");
 printf("========= 1 - Realizar Pagamento\n");
 printf("========= 2 - Mostrar Pagamentos\n");
 printf("========= 0 - Voltar\n");
+printf("\nAperte ENTER para continuar...");
+getchar();
 }
 
 void tela_precos(void){
+system("clear||cls");
 printf("=======================================================================\n");
 printf("=========                   Tabela de Precos                  =========\n");
 printf("=======================================================================\n");
@@ -78,9 +91,12 @@ printf("=========        4 horas       ====== R$ 4,80 =========================\
 printf("========= 4 horas e 30 minutos ====== R$ 5,40 =========================\n");
 printf("=========        5 horas       ====== R$ 6,00 =========================\n");
 printf("=======================================================================\n");
+printf("\nAperte ENTER para continuar...");
+getchar();
 }
 
 void tela_sobre(void){
+system("clear||cls");
 printf("=======================================================================\n");
 printf("=========   UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE    ============\n");
 printf("=========       CENTRO DE ENSINO SUPERIOR DO SERIDO        ============\n");
@@ -100,4 +116,6 @@ printf("=========  DIOGO VICTOR DE SOUZA NOGUEIRA                  ============\
 printf("=========  E-MAIL: estudantediogo2203@gmail.com            ============\n");
 printf("=========  GITHUB: https://github.com/DiogoNogueira2002    ============\n");
 printf("=======================================================================\n");
+printf("\nAperte ENTER para continuar...");
+getchar();
 }

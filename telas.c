@@ -20,6 +20,7 @@ int main(){
 }
 
 void tela_principal(void){
+char opcao;
 system("clear||cls");
 printf("=======================================================================\n");
 printf("=========                        SCE                          =========\n");
@@ -31,11 +32,15 @@ printf("========= 3 - Menu de Pagamento\n");
 printf("========= 4 - Tabela de Precos\n");
 printf("========= 5 - Sobre\n");
 printf("========= 0 - Sair\n");
+printf("\nDigite sua opcao: ");
+scanf("%c", &opcao);
+getchar();
 printf("\nAperte ENTER para continuar...");
 getchar();
 }
 
 void tela_clientes(void){
+char opcao;
 system("clear||cls");
 printf("=======================================================================\n");
 printf("=========                    Menu de Clientes                 =========\n");
@@ -45,11 +50,15 @@ printf("========= 2 - Mostrar Todos os Clientes\n");
 printf("========= 3 - Editar Cliente\n");
 printf("========= 4 - Remover Cliente\n");
 printf("========= 0 - Voltar\n");
+printf("\nDigite sua opcao: ");
+scanf("%c", &opcao);
+getchar();
 printf("\nAperte ENTER para continuar...");
 getchar();
 }
 
 void tela_estac(void){
+char opcao;
 system("clear||cls");
 printf("=======================================================================\n");
 printf("=========                 Menu de Estacionamento              =========\n");
@@ -59,11 +68,15 @@ printf("========= 2 - Mostrar Todas as Vagas\n");
 printf("========= 3 - Editar Vagas\n");
 printf("========= 4 - Remover Vagas\n");
 printf("========= 0 - Voltar\n");
+printf("\nDigite sua opcao: ");
+scanf("%c", &opcao);
+getchar();
 printf("\nAperte ENTER para continuar...");
 getchar();
 }
 
 void tela_pag(void){
+char opcao;
 system("clear||cls");
 printf("=======================================================================\n");
 printf("=========                   Menu de Pagamento                 =========\n");
@@ -71,6 +84,9 @@ printf("=======================================================================\
 printf("========= 1 - Realizar Pagamento\n");
 printf("========= 2 - Mostrar Pagamentos\n");
 printf("========= 0 - Voltar\n");
+printf("\nDigite sua opcao: ");
+scanf("%c", &opcao);
+getchar();
 printf("\nAperte ENTER para continuar...");
 getchar();
 }

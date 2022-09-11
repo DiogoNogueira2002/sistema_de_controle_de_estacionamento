@@ -9,8 +9,7 @@ void tela_pag(void);
 void tela_precos(void);
 void tela_sobre(void);
 
-int main()
-{
+int main(){
     tela_principal();
     tela_clientes();
     tela_estac();
@@ -20,8 +19,7 @@ int main()
     return 0;
 }
 
-void tela_principal(void)
-{
+void tela_principal(void){
 char opcao;
 system("clear||cls");
 printf("=======================================================================\n");
@@ -41,8 +39,7 @@ printf("\nAperte ENTER para continuar...");
 getchar();
 }
 
-void tela_clientes(void)
-{
+void tela_clientes(void){
 char opcao;
 system("clear||cls");
 printf("=======================================================================\n");
@@ -60,8 +57,7 @@ printf("\nAperte ENTER para continuar...");
 getchar();
 }
 
-void tela_estac(void)
-{
+void tela_estac(void){
 char opcao;
 system("clear||cls");
 printf("=======================================================================\n");
@@ -79,8 +75,7 @@ printf("\nAperte ENTER para continuar...");
 getchar();
 }
 
-void tela_pag(void)
-{
+void tela_pag(void){
 char opcao;
 system("clear||cls");
 printf("=======================================================================\n");
@@ -96,8 +91,7 @@ printf("\nAperte ENTER para continuar...");
 getchar();
 }
 
-void tela_precos(void)
-{
+void tela_precos(void){
 system("clear||cls");
 printf("=======================================================================\n");
 printf("=========                   Tabela de Precos                  =========\n");
@@ -117,8 +111,7 @@ printf("\nAperte ENTER para continuar...");
 getchar();
 }
 
-void tela_sobre(void)
-{
+void tela_sobre(void){
 system("clear||cls");
 printf("=======================================================================\n");
 printf("=========   UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE    ============\n");

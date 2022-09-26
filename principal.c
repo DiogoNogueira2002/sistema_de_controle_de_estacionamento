@@ -36,8 +36,8 @@ int main(void) {
         {
           if (subopcao != '0') 
           {
-          printf("\nDigite algo válido\n");
-          getchar();
+            printf("\nDigite algo válido\n");
+            getchar();
           }
         }
       } while (subopcao != '0');
@@ -100,8 +100,8 @@ int main(void) {
         {
           if (subopcao != '0') 
           {
-          printf("\nDigite algo válido\n");
-          getchar();
+            printf("\nDigite algo válido\n");
+            getchar();
           }
         }
       } while (subopcao != '0');
@@ -128,8 +128,8 @@ int main(void) {
         {
           if (subopcao != '0') 
           {
-          printf("\nDigite algo válido\n");
-          getchar();
+            printf("\nDigite algo válido\n");
+            getchar();
           }
         }
       } while (subopcao != '0');
@@ -144,7 +144,8 @@ int main(void) {
     } 
     else
     {
-      if (opcao != '0') {
+      if (opcao != '0')
+      {
         printf("\nDigite algo válido\n");
         getchar();
       }

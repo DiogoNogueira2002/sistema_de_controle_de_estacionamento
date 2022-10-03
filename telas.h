@@ -1,6 +1,6 @@
 char tela_principal(void);
-char tela_clientes(void);
-char tela_estac(void);
-char tela_pag(void);
+char tela_veiculos(void);
+char tela_vagas(void);
+char tela_mov(void);
 void tela_precos(void);
 void tela_sobre(void);

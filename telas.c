@@ -9,9 +9,9 @@ char tela_principal(void)
     printf("=========                        SCE                          =========\n");
     printf("=========        Sistema de Controle de Estacionamentos       =========\n");
     printf("=======================================================================\n");
-    printf("========= 1 - Menu de Clientes\n");
-    printf("========= 2 - Menu de Estacionamento\n");
-    printf("========= 3 - Menu de Pagamento\n");
+    printf("========= 1 - Menu de Veículos\n");
+    printf("========= 2 - Menu de Vagas\n");
+    printf("========= 3 - Menu de Movimentações\n");
     printf("========= 4 - Tabela de Precos\n");
     printf("========= 5 - Sobre\n");
     printf("========= 0 - Sair\n");
@@ -23,17 +23,18 @@ char tela_principal(void)
     return opcao;
 }
 
-char tela_clientes(void)
+char tela_veiculos(void)
 {
     char opcao;
     system("clear||cls");
     printf("=======================================================================\n");
-    printf("=========                    Menu de Clientes                 =========\n");
+    printf("=========                    Menu de Veículos                 =========\n");
     printf("=======================================================================\n");
-    printf("========= 1 - Cadastrar Cliente\n");
-    printf("========= 2 - Mostrar Todos os Clientes\n");
-    printf("========= 3 - Editar Cliente\n");
-    printf("========= 4 - Remover Cliente\n");
+    printf("========= 1 - Cadastrar Veículo\n");
+    printf("========= 2 - Pesquisar Veículo\n");
+    printf("========= 3 - Mostrar Todos os Veículos\n");
+    printf("========= 4 - Editar Veículo\n");
+    printf("========= 5 - Remover Veículo\n");
     printf("========= 0 - Voltar\n");
     printf("\nDigite sua opcao: ");
     scanf("%c", &opcao);
@@ -43,17 +44,18 @@ char tela_clientes(void)
     return opcao;
 }
 
-char tela_estac(void)
+char tela_vagas(void)
 {
     char opcao;
     system("clear||cls");
     printf("=======================================================================\n");
-    printf("=========                 Menu de Estacionamento              =========\n");
+    printf("=========                     Menu de Vagas                   =========\n");
     printf("=======================================================================\n");
     printf("========= 1 - Adicionar Vagas\n");
-    printf("========= 2 - Mostrar Todas as Vagas\n");
-    printf("========= 3 - Editar Vagas\n");
-    printf("========= 4 - Remover Vagas\n");
+    printf("========= 2 - Pesquisar Vaga\n");
+    printf("========= 3 - Mostrar Todas as Vagas\n");
+    printf("========= 4 - Editar Vagas\n");
+    printf("========= 5 - Remover Vagas\n");
     printf("========= 0 - Voltar\n");
     printf("\nDigite sua opcao: ");
     scanf("%c", &opcao);
@@ -63,15 +65,15 @@ char tela_estac(void)
     return opcao;
 }
 
-char tela_pag(void)
+char tela_mov(void)
 {
     char opcao;
     system("clear||cls");
     printf("=======================================================================\n");
-    printf("=========                   Menu de Pagamento                 =========\n");
+    printf("=========                 Menu de Movimentações               =========\n");
     printf("=======================================================================\n");
-    printf("========= 1 - Realizar Pagamento\n");
-    printf("========= 2 - Mostrar Pagamentos\n");
+    printf("========= 1 - Realizar check-in\n");
+    printf("========= 2 - Realizar check-out\n");
     printf("========= 0 - Voltar\n");
     printf("\nDigite sua opcao: ");
     scanf("%c", &opcao);
@@ -87,16 +89,16 @@ void tela_precos(void)
     printf("=======================================================================\n");
     printf("=========                   Tabela de Precos                  =========\n");
     printf("=======================================================================\n");
-    printf("=========      30 minutos      ====== R$ 0,60 =========================\n");
-    printf("=========        1 hora        ====== R$ 1,20 =========================\n");
-    printf("========= 1 hora e 30 minutos  ====== R$ 1,80 =========================\n");
-    printf("=========        2 horas       ====== R$ 2,40 =========================\n");
-    printf("========= 2 horas e 30 minutos ====== R$ 3,00 =========================\n");
-    printf("=========        3 horas       ====== R$ 3,60 =========================\n");
-    printf("========= 3 horas e 30 minutos ====== R$ 4,20 =========================\n");
-    printf("=========        4 horas       ====== R$ 4,80 =========================\n");
-    printf("========= 4 horas e 30 minutos ====== R$ 5,40 =========================\n");
-    printf("=========        5 horas       ====== R$ 6,00 =========================\n");
+    printf("=========      30 minutos      ====== R$      =========================\n");
+    printf("=========        1 hora        ====== R$      =========================\n");
+    printf("========= 1 hora e 30 minutos  ====== R$      =========================\n");
+    printf("=========        2 horas       ====== R$      =========================\n");
+    printf("========= 2 horas e 30 minutos ====== R$      =========================\n");
+    printf("=========        3 horas       ====== R$      =========================\n");
+    printf("========= 3 horas e 30 minutos ====== R$      =========================\n");
+    printf("=========        4 horas       ====== R$      =========================\n");
+    printf("========= 4 horas e 30 minutos ====== R$      =========================\n");
+    printf("=========        5 horas       ====== R$      =========================\n");
     printf("=======================================================================\n");
     printf("\nAperte ENTER para continuar...");
     getchar();

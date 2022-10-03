@@ -8,29 +8,32 @@ int main(void) {
   char subopcao;
   char subopcao2;
   char subopcao3[3];
-  char pagamento[4];
   do {
     opcao = tela_principal();
     if (opcao == '1') 
     {
       do 
       {
-        subopcao = tela_clientes();
+        subopcao = tela_veiculos();
         if (subopcao == '1')
         {
-          subtela_cadastrarcliente();
+          subtela_cadastrarveiculo();
         }
         else if (subopcao == '2')
         {
-          subtela_mostrarclientes();
+          subtela_pesquisarveiculo();
         }
         else if (subopcao == '3')
         {
-          subopcao2 = subtela_editarcliente();
+          subtela_mostrarveiculos();
         }
         else if (subopcao == '4')
         {
-          subopcao2 = subtela_removercliente();
+          subopcao2 = subtela_editarveiculo();
+        }
+        else if (subopcao == '5')
+        {
+          subopcao2 = subtela_removerveiculo();
         }
         else 
         {
@@ -46,7 +49,7 @@ int main(void) {
     {
       do 
       {
-        subopcao = tela_estac();
+        subopcao = tela_vagas();
         if (subopcao == '1')
         {
           subopcao2 = subtela_adicionarvagas_esc();
@@ -81,9 +84,13 @@ int main(void) {
         }
         else if (subopcao == '2')
         {
-          subtela_mostrarvagas();
+          subtela_pesquisarvaga();
         }
         else if (subopcao == '3')
+        {
+          subtela_mostrarvagas();
+        }
+        else if (subopcao == '4')
         {
           subtela_editarvagas();
           scanf("%s", subopcao3);
@@ -92,7 +99,7 @@ int main(void) {
           printf("\nAperte ENTER para continuar...");
           getchar();
         }
-        else if (subopcao == '4')
+        else if (subopcao == '5')
         {
           subopcao2 = subtela_removervagas();
         }
@@ -110,19 +117,14 @@ int main(void) {
     {
       do 
       {
-        subopcao = tela_pag();
+        subopcao = tela_mov();
         if (subopcao == '1')
         {
-          subtela_realizarpag();
-          scanf("%s", pagamento);
-          getchar();
-          printf("\n");
-          printf("\nAperte ENTER para continuar...");
-          getchar();
+          subtela_checkin();
         }
         else if (subopcao == '2')
         {
-          subtela_mostrarpagamentos();
+          subtela_checkout();
         }
         else 
         {

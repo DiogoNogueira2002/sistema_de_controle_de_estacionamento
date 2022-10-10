@@ -116,7 +116,7 @@ void tela_sobre(void)
     printf("=========  PROJETO SISTEMA DE CONTROLE DE ESTACIONAMENTOS  ============\n");
     printf("=========                                                  ============\n");
     printf("=========    Este Sistema tem como funcionalidade o con-   ============\n");
-    printf("========= trole, entrada e saidas de veiculos, alem de re- ============\n");
+    printf("========= trole, entrada e saidas de veiculos, além de re- ============\n");
     printf("========= gistrar o fluxo financeiro realizado pelos cli-  ============\n");
     printf("========= entes, facilitando assim o intermedio dos admi-  ============\n");
     printf("========= nistradores que usarao o sistema.                ============\n");

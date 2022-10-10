@@ -12,4 +12,3 @@ void subtela_editarvagas(void);
 char subtela_removervagas(void);
 void subtela_checkin(void);
 void subtela_checkout(void);
-

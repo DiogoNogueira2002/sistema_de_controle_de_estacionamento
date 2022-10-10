@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void subtela_cadastrarveiculo(void) {
-  // o tempo será armazenado no momento do cadastro para comparar no check-out e calcular o preço a ser pago 
+  // o tempo será armazenado no momento do cadastro para comparar no check-out e calcular o preço a ser pago. 
   system("clear||cls");
   printf("=======================================================================\n");
   printf("=========                   Cadastrar Veículo                 =========\n");

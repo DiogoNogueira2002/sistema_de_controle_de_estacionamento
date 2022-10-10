@@ -39,7 +39,7 @@ int main(void) {
         {
           if (subopcao != '0') 
           {
-          printf("\nDigite algo válido\n");
+          printf("\nDigite algo válido!\n");
           getchar();
           }
         }
@@ -79,7 +79,7 @@ int main(void) {
           }
           else 
           {
-            printf("Digite algo válido\n");
+            printf("Digite algo válido!\n");
           }
         }
         else if (subopcao == '2')
@@ -107,7 +107,7 @@ int main(void) {
         {
           if (subopcao != '0') 
           {
-          printf("\nDigite algo válido\n");
+          printf("\nDigite algo válido!\n");
           getchar();
           }
         }
@@ -130,7 +130,7 @@ int main(void) {
         {
           if (subopcao != '0') 
           {
-          printf("\nDigite algo válido\n");
+          printf("\nDigite algo válido!\n");
           getchar();
           }
         }
@@ -147,7 +147,7 @@ int main(void) {
     else
     {
       if (opcao != '0') {
-        printf("\nDigite algo válido\n");
+        printf("\nDigite algo válido!\n");
         getchar();
       }
     }
